@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Production build artifacts
+build/
+dist/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+aws-iam-authenticator
+
+# OS
+.DS_Store
+Thumbs.db
