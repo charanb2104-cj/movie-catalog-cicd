@@ -1,5 +1,3 @@
-import '@testing-library/jest-dom';
-
 // Mock global fetch for Jest testing environment
 global.fetch = jest.fn(() =>
   Promise.resolve({

@@ -6,6 +6,6 @@ describe('App Component', () => {
   test('renders Movie Picture Catalog title', () => {
     render(<App />);
     const headingElement = screen.getByText(/Movie Picture Catalog/i);
-    expect(headingElement).toBeInTheDocument();
+    expect(headingElement).toBeTruthy();
   });
 });
